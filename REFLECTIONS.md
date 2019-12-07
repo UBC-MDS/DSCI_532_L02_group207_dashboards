@@ -17,6 +17,7 @@
 - We increased the size of the font on all of the graphs after users told us that labels and axis were hard to read.
 - To improve the readability of the faceted bar graph (and to be more honest about what we are depicting) we decided to leave the bar graph unsorted since the maximum yield is highlighted in red already.
 - We decided to disable the interactivity of the plots to get rid of the problem of the plots preventing users from scrolling down on the app (if their mouse cursor was over a chart).
+- Documentation of the code, as well as the structure of the repository itself, was changed to be far more readable and clear.
 
 ### Suggestions That Were Not Added (and why):
 - It was suggested that we perhaps modify the [layout of the graphs]( https://github.com/UBC-MDS/DSCI_532_L02_group207_dashboards/issues/40) such that the map is moved away from the top since it actually is not the most important graph (when compared to the bar charts). However, there were many issues involved with the layout of the app and in particular, there were large difficulties getting the app to scale to different screen sizes (this took up a large portion of our time during Milestone 2). Thus, messing with the layout is not a trivial task and could functionally break other parts of the app. As a result, we decided to not change this in the Python version of the app, but we plan to completely change the layout and design of the second upcoming app in R.
